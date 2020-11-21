@@ -1,0 +1,80 @@
+﻿<Window x:Class="задание2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:задание2"
+               mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  >
+
+
+
+
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0.2,0.0" EndPoint="0.2,1">
+            <LinearGradientBrush.GradientStops >
+                <GradientStop Color="Orange" Offset="0" />
+                <GradientStop Color="SandyBrown" Offset="0.2" />
+                <GradientStop Color="Goldenrod" Offset="0.8" />
+                <GradientStop Color="Silver" Offset="1" />
+
+            </LinearGradientBrush.GradientStops>
+
+
+        </LinearGradientBrush >
+    </Window.Background>
+
+    <Grid>
+        <TextBox x:Name="boxs" Width="300" Height="50" RenderTransformOrigin="0.507,2.011" Margin="233,260,260.6,110">
+            <TextBox.Background>
+                <LinearGradientBrush StartPoint="0.2,0.0" EndPoint="0.2,1">
+                    <LinearGradientBrush.GradientStops >
+                        <GradientStop Color="Orange" Offset="0" />
+                        <GradientStop Color="SandyBrown" Offset="0.2" />
+                        <GradientStop Color="Goldenrod" Offset="0.8" />
+                      
+
+                    </LinearGradientBrush.GradientStops>
+
+
+                </LinearGradientBrush >
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="box" Width="500" Height="200" RenderTransformOrigin="0.507,2.011" Margin="140,0,153.6,220">
+            <TextBox.Background>
+                <LinearGradientBrush StartPoint="0.2,0.0" EndPoint="0.2,1">
+                    <LinearGradientBrush.GradientStops >
+                        <GradientStop Color="Orange" Offset="0" />
+                        <GradientStop Color="SandyBrown" Offset="0.2" />
+                        <GradientStop Color="Goldenrod" Offset="0.8" />
+
+
+                    </LinearGradientBrush.GradientStops>
+
+
+                </LinearGradientBrush >
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="Btn1"
+                HorizontalAlignment="Right"    
+                VerticalAlignment="Bottom"  
+                Width="150"
+                Height="50"
+                FontSize="20"
+                Content="ЗАПУСК"
+                Foreground="DarkRed"
+                Background="#f0f0f0"
+                BorderBrush="Black" Margin="0,0,334.6,25"  
+                Click="Btn1_Click"/>
+
+
+
+
+
+
+
+
+
+        <!--<BorderBrush="#303030"/>-->
+    </Grid>
+</Window>
